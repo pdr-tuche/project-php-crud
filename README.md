@@ -10,7 +10,7 @@ Projeto de Entrega de PHP UNIPÊ 2023.2
 <p>• Phillipe Dautro RGM: 32832427</p>
 <p>• Edyllauson Alves RGM: 34075127</p>
 <p>• Ana Beatriz RGM: 34122788</p>
-<p>• Mariana Coutinho RGM:</p>
+<p>• Mariana Coutinho RGM: 33489190</p>
 
 </div>
 
