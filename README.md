@@ -19,12 +19,13 @@ Projeto de Entrega de PHP UNIPÊ 2023.2
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [x] Tarefa 1
-- [x] Tarefa 2
-- [x] Tarefa 3
-- [ ] Tarefa 4
-- [ ] Tarefa 5
-
+- [x] Definição da equipe e do projeto
+- [x] Criar o repositório e adicionar os colaboradores da equipe
+- [x] Protótipo do painel
+- [x] Inicio da documentação do sistema
+- [x] Formulação de requisitos funcionais e não funcionais
+- [ ] Integração de Banco de Dados
+- [ ] Front-End do Projeto
 
 ## 🤝 Colaboradores
 
