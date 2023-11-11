@@ -1,6 +1,13 @@
 # project-php-crud
 
 Projeto de Entrega de PHP UNIPÊ 2023.2
+
+![GitHub repo size](https://img.shields.io/github/repo-size/victoriaflb/project-php-crud?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/victoriaflb/project-php-crud?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/victoriaflb/project-php-crud?style=for-the-badge)
+![GitHub open issues](https://img.shields.io/github/issues/victoriaflb/project-php-crud?style=for-the-badge)
+![GitHub open pull requests](https://img.shields.io/github/issues-pr/victoriaflb/project-php-crud?style=for-the-badge)
+
  
 
 ## Integrantes do projeto
