@@ -34,7 +34,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="https://github.com/Edyllauson">
-        <img src="https://avatars.githubusercontent.com/u/124541348?v=4" width="100px;" alt="Foto do Edyllauson Alves no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/124541348?v=4" width="100px" alt="Foto do Edyllauson Alves no GitHub"/><br>
         <sub>
           <b style="text-decoration: none;">Edyllauson Alves</b>
         </sub>
