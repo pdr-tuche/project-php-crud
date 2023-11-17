@@ -29,10 +29,11 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Definição da equipe e do projeto
 - [x] Criar o repositório e adicionar os colaboradores da equipe
 - [x] Protótipo do painel
+- [X] Criação do CRUD e MyAdmin
 - [x] Inicio da documentação do sistema
 - [x] Formulação de requisitos funcionais e não funcionais
-- [ ] Integração de Banco de Dados
-- [ ] Front-End do Projeto
+- [X] Integração de Banco de Dados
+- [X] Front-End do Projeto
 
 ## 🤝 Colaboradores
 
