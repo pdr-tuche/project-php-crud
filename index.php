@@ -1,5 +1,14 @@
-<?php include "conecta.inc.php"; ?>
-<html>
+<?php
+    include "config.inc.php";
+
+    require_once "valida_coo.inc.php";
+        
+?>
+
+<!DOCTYPE html>
+<html lang="pt">
+
+>>>>>>> origin/alteracoes_edyllauson
 <head>
     <title>Taylor Swift Tour</title>
     <link rel="stylesheet" type="text/css" 
