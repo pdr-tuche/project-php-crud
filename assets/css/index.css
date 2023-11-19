@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chakra Petch', sans-serif;
+    list-style-type: none;
+}
+
+@media(max-width:900px){
+  
+
+    .wrap{
+        flex-direction: column !important;
+    }
+
+    .menu {
+        margin-bottom: 3rem !important;
+    }
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: #000;
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #fff !important;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    height: 12px;
+    /* roundness of the scroll thumb */
+    /* creates padding around scroll thumb */
+}
+
+
+
+body {
+    cursor: url("../assets/img/cursor-taylor.cur"), auto;
+    flex-wrap: wrap;
+    min-width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #000;
+    color: white;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    display: none;
+}
+
+#container {
+    padding: 4rem;
+    text-decoration: none;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    background-color: #242424;
+    display: flex;
+    min-width: 100%;
+    justify-content: center;
+
+}
+
+.wrap {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.wrap li a {
+    text-decoration: none;
+}
+
+
+.page-header {
+    color: #fff;
+    margin: 2rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.breadcrumb {
+    flex-direction: column;
+    text-decoration: none;
+    color: #fff;
+    align-content: stretch;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.breadcrumb .active li a {
+    text-decoration: none;
+}
+
+#delete:hover,
+#edit:hover {
+    width: 40px;
+    transition: .3s all ease-in-out;
+    height: 40px;
+    background-color: #ffffff1f;
+    border-radius: 50px;
+    border: 6px solid #ffffff1f;
+}
+
+.breadcrumb a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.breadcrumb li {
+    justify-content: center;
+}
+
+.active a {
+    text-decoration: none;
+}
+
+.admin {
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.admin td {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.admin a {
+    font-size: 40px;
+
+}
+
+
+.wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    height: auto;
+}
+
+
+.wrap li a {
+    text-align: right;
+    justify-items: center;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.wrap li a {
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    border-radius: 20px;
+    padding: 1rem;
+    transition: .3s all ease-in-out;
+    background-color: #ffffff1f;
+}
+
+.menu li {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.menu {
+    margin: 10rem;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    display: grid;
+    align-content: stretch;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+#exit a:hover,
+#exit1:hover {
+    fill: red;
+    color: red;
+}
+
+
+element.style{
+display: "" !important;
+}
+
+#inserir{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+#inserir input{
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1rem;
+    display: flex;
+}
+
+#inserir .input {
+    border: 2px solid transparent;
+    width: 15em;
+    height: 2.0em;
+    padding-left: 0.8em;
+    outline: none;
+    overflow: hidden;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    transition: all 0.5s;
+  }
+  
+  #inserir .input:hover,
+  #inserir .input:focus {
+    border: 2px solid #ec4ae6;
+    box-shadow: 0px 0px 0px 7px rgba(236, 74, 198, 0.2);
+    background-color: white;
+  }
+
+
+  
+  #enviar-inserir{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+input[type="submit"]{
+    padding: 1em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+    
+input[type="submit"]:hover{
+    background-color: #c423c1;
+    box-shadow: 0px 15px 50px rgba(198, 46, 229, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+input[type="submit"]:active {
+    transform: translateY(-1px);
+  }
+
+  #alterar-produto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    justify-content: space-between;
+  }
+
+  #alterar-produto input{
+    flex-direction: column;
+    margin: 1rem;
+    display: flex;
+  }
+
+  .alterar-botao{
+    justify-content: center;
+    width: 100%;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+  }
+
+  #enviar{
+    display: flex;
+    justify-content: center;
+  }
+
+  #alterar{
+    display: contents;
+    width: 100%;
+    justify-content:end;
+  }

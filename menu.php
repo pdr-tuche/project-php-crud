@@ -1,6 +1,6 @@
 
   <section class="nav">
-    <h1>Taylor's Experience</h1>
+    <h1 id="titulo-taylor">Taylor's Experience</h1>
     <h3 class="span loader">
       <span class="m">T</span>
       <span class="m">H</span>
@@ -17,10 +17,11 @@
       <span class="m">R</span>
     </h3>
     <div class="nav-container">
-      <a class="nav-tab" href="#theeras">THEERAS</a>
-      <a class="nav-tab" href="#tab-esbuild">ALBUNS</a>
-      <a class="nav-tab" href="#tab-next">PREMIAÇÕES</a>
-      <a class="nav-tab" href="#tab-typescript">MERCH</a>
+      <a class="nav-tab" href="?pg=albums">ALBUMS/SHOWS</a>
+      <a class="nav-tab" href="?pg=feature">FEATURE</a>
+      <a class="nav-tab" href="?pg=team">TEAM</a>
+      <a class="nav-tab" href="?pg=faq">FAQ</a>
+      <a class="nav-tab" href="?pg=product">MERCHANDISING</a>
       <span class="nav-tab-slider"></span></div>
   </section>
   
