@@ -1,3 +1,17 @@
+<?php
+session_start();
+
+include_once("admin/config.inc.php");
+
+$usuario = $_SESSION['usuario'];
+
+$busca = "Select * from login_user WHERE usuario = '$usuario'";
+$todos = mysqli_query($conexao, $busca);
+
+while ($dados=mysqli_fetch_array($todos)) {
+echo $user_id = $dados['id'];
+}
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 

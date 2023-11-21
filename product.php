@@ -78,7 +78,7 @@ while ($item = mysqli_fetch_array($query)) {
                             <img class="img-fluid" src="<?php echo $item['img']; ?> " alt="">
                             <div class="product-overlay">
                                 <a class="btn btn-square btn-secondary rounded-circle m-1" href=pg={$dadosCarrinho><i class="bi bi-link"></i></a>
-                                <a class="btn btn-square btn-secondary rounded-circle m-1" href="?pg=$dadosCarrinho"><i class="bi bi-cart"></i></a>
+                                <a class="btn btn-square btn-secondary rounded-circle m-1" href="?pg=pagamentos&id=<?= $item['id']; ?>"><i class="bi bi-cart"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4" >
@@ -92,60 +92,9 @@ while ($item = mysqli_fetch_array($query)) {
                 </div>
                 <?php } ?>
 
-                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="product-item">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="./assets/img/product-2.png" alt="">
-                            <div class="product-overlay">
-                                <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
-                                <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <a class="d-block h5" href="">Taylor Swift Moletom Bege The Eras Tour</a>
-                            <div id="precos">
-                                <h6 class="text-primary me-1">R$ 80,90</h6>
-                                <h6 class="text-decoration-line-through">R$ 100,90</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="product-item">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="./assets/img/product-3.png" alt="">
-                            <div class="product-overlay">
-                                <a class="btn btn-square btn-secondary rounded-circle m-1" href="?pg=$dadosCarrinho"><i class="bi bi-link"></i></a>
-                                <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <a class="d-block h5" href="">Taylor Swift The Eras Tour Taylor Swift evermore Album T-Shirt</a>
-                            <div id="precos">
-                                <h6 class="text-primary me-1">R$ 50.00</h6>
-                                <h6 class="text-decoration-line-through">R$ 80.00</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="product-item">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="./assets/img/product-4.png" alt="">
-                            <div class="product-overlay">
-                                <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
-                                <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <a class="d-block h5" href="">Taylor Swift The Eras International Tour Camiseta Preta</a>
-                            <div id="precos">
-                                <h6 class="text-primary me-1">R$ 56.00</h6>
-                                <h6 class="text-decoration-line-through" >R$ 80.00</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+               
+               
+              
             </div>
         </div>
       <div class="product-overlay">

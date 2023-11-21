@@ -132,22 +132,14 @@ require_once "valida_coo.inc.php";
         
         <div class="painel-perfil">
     <div class="img-perfil">
-        <?php if (isset($dados) && is_array($dados)) : ?>
-            <?php
-            // Assuming $dados contains the user data, including the profile image path
-            $profileImage = $dados['profile_image']; // Update 'profile_image' to the actual key
+        <?php 
+        $busca = "Select * from login_user WHERE usuario = '$usuario'";
+        $todos = mysqli_query($conexao, $busca);
 
-            // Ensure the profile image path is not empty before displaying
-            if (!empty($profileImage)) {
-                echo '<img src="' .$perfil. '" alt="Profile Image">';
-            } else {
-                echo '<img src="path_to_default_image.jpg" alt="Default Image">'; // Provide a default image path
-            }
-            ?>
+        while ($dados=mysqli_fetch_array($todos)) { ?>
+            <img src="<?= $dados['perfil']; ?>" alt="Profile Image">
             <h1 style="color: white;"><?= $dados['usuario']; ?></h1>
-        <?php else : ?>
-            <h1 style="color: white; font-size: 22px; margin-top:1rem;">Usuário não encontrado</h1>
-        <?php endif; ?>
+        <?php } ?>
     </div>
 </div>
 
