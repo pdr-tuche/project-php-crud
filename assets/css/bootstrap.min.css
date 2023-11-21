@@ -154,3 +154,7 @@ h6, .h6 {
     margin-top: 1rem;
     justify-content: center;
   }
+
+  .user_alter{
+    justify-content: flex-start;
+  }

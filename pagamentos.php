@@ -57,15 +57,22 @@ $resultadoCarrinho = mysqli_query($conexao, $buscaCarrinho);
         </tr>
     </thead>
     <tbody>
-        <?php while ($dadosCarrinho = mysqli_fetch_array($resultadoCarrinho)) { 
+        <?php 
+        
+        if(isset($_GET['id_pessoa'])){
+            $id = strip_tags($_GET['id_pessoa']);
+            var_dump($id);
+        }
+        
+        ##  while ($dadosCarrinho = mysqli_fetch_array($resultadoCarrinho)) { 
             
-            while ($row = mysqli_fetch_array($resultadoCarrinho)) {
-                $dadosCarrinho[] = $row;
-            }
-            $resultadoFinal = array_merge($produtos, $dadosCarrinho);?>
+            ##while ($row = mysqli_fetch_array($resultadoCarrinho)) {
+               ## $dadosCarrinho[] = $row;
+           ## }
+          ##  $resultadoFinal = array_merge($produtos, $dadosCarrinho);?>
             <tr>
                 <td><?=$dadosCarrinho['id'];?></td>
-                <td><?=$dadosCarrinho['id_pessoa'];?></td>
+                <td><a href="?id_pessoa=1"></a></td>
                 <td><?=$dadosCarrinho['produto'];?></td>
                 <td><?=$dadosCarrinho['imagem'];?></td>
                 <td><?=$dadosCarrinho['preco']; ?></td>
@@ -85,7 +92,7 @@ $resultadoCarrinho = mysqli_query($conexao, $buscaCarrinho);
              </tr>
           
             
-        <?php } ?>
+        <?php ##} ?>
     </tbody>
 </table>
 <?php include_once("./rodape.php")?>

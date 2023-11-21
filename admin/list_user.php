@@ -18,18 +18,20 @@ $todos = mysqli_query($conexao, $busca);
 ?>
 <table style="justify-content: center; width:100%; display:flex;">
     <tr style="background-color: black;color:white; height:3rem;">
-        <td style="width: 170px;">Id</td>
+        <td style="width: 205px;">Id</td>
         <td style="width: 205px;">Usuário</td>
+        <td style="width: 205px;">Perfil</td>
         <td style="width: 25px;">E-mail</td>
         <td style="width: 205px;">Senha</td>
-        <td style="width: 105px;">Alterar</td>
-        <td style="width: 105px;">Excluir</td>
+        <td style="width: 180px;">Alterar</td>
+        <td style="width: 180px;">Excluir</td>
     </tr>
     <?php while ($dados=mysqli_fetch_array($todos)) {?>
     
     <tr style="background-color: grey; padding:3rem">
         <td><?=$dados['id'];?></td>
         <td><?=$dados['usuario'];?></td>
+        <td><img src="<?=$dados['perfil'];?>" alt="img-perfil" id="perfil"></td>
         <td><?=$dados['email'];?></td>
         <td><?=$dados['senha']; ?></td>
         <td><a href="?pg=alterar_user&id=<?=$dados['id']; ?>"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" id="edit" class="bi bi-pencil-square" viewBox="0 0 16 16">
