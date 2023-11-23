@@ -33,6 +33,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Formulação de requisitos funcionais e não funcionais
 - [X] Integração de Banco de Dados
 - [X] Front-End do Projeto
+- [X] Documentação finalizada
+- [X] Entrega final do projeto
 
 ## 🤝 Colaboradores
 
