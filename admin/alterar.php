@@ -50,3 +50,4 @@ while($dados=mysqli_fetch_array($busca)){
 </body>
 </html>
 
+<!-- php -->

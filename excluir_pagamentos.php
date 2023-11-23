@@ -9,7 +9,7 @@ $excluir = $_GET["id"];
 
 $sql = "DELETE FROM `carrinho` WHERE id = $excluir";
 
-//echo $sql;
+//Echo $sql;
 
 $delete = mysqli_query($conexao, $sql);
 

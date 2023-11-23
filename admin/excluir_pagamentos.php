@@ -19,3 +19,4 @@ if(!$delete){
    echo "<h3>Deletado com sucesso!</h3><br><a href='./?pg=visualizar_pagamentos'>Voltar</a>";
 }
 ?>
+<!-- php -->

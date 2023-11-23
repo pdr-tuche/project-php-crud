@@ -18,3 +18,4 @@ if(!$delete){
    echo "<h3>Deletado com sucesso!</h3><br><a href='./?pg=listar'>Voltar</a>";
 }
 ?>
+<!-- php -->

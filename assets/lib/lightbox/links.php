@@ -4,3 +4,4 @@
     'js' => 'lib/lightbox/js/lightbox.min.js'
   );
 ?>
+}

@@ -20,3 +20,4 @@ if(!$insert){
    echo "<a href='?pg=listar'>Listar produtos</a>";
 }
 ?>
+<!-- php -->

@@ -6,7 +6,7 @@ require_once "valida_coo.inc.php";
 
 ?>
 
-
+<!-- php -->
 
 <!DOCTYPE html>
 <html lang="en">

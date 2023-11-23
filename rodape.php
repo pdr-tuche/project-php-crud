@@ -51,7 +51,6 @@
     </div>
 </div>
 
-<!-- Copyright Start -->
 <div class="container-fluid bg-secondary text-body copyright py-4">
     <div class="container">
         <div class="row">
@@ -63,4 +62,3 @@
         </div>
     </div>
 </div>
-<!-- Copyright End -->

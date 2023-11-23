@@ -1,5 +1,6 @@
 
   <section class="nav">
+    <!--nome do site -->
     <h1 id="titulo-taylor">Taylor's Experience</h1>
     <h3 class="span loader">
       <span class="m">T</span>
@@ -16,6 +17,7 @@
       <span class="m">U</span>
       <span class="m">R</span>
     </h3>
+    //
     <div class="nav-container">
       <a class="nav-tab" href="?pg=albums">ALBUMS/SHOWS</a>
       <a class="nav-tab" href="?pg=feature">FEATURE</a>

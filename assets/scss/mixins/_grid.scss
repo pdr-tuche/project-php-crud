@@ -1,6 +1,3 @@
-/// Grid system
-//
-// Generate semantic grid columns with these mixins.
 
 @mixin make-row($gutter: $grid-gutter-width) {
   --#{$variable-prefix}gutter-x: #{$gutter};

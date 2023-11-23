@@ -22,3 +22,4 @@ if(!$altera){
 <a href='?pg=list_user'>Voltar</a>";
 }
 ?>
+<!-- php -->

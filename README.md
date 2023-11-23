@@ -35,7 +35,6 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [X] Front-End do Projeto
 - [X] Documentação finalizada
 - [X] Entrega final do projeto
-
 ## 🤝 Colaboradores
 
 Agradecemos às seguintes pessoas que contribuíram para este projeto:

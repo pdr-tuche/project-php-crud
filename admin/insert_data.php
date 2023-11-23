@@ -22,3 +22,4 @@ if ($insert) {
 // Fechar a conexão
 mysqli_close($conexao);
 ?>
+<!-- php -->

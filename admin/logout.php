@@ -7,5 +7,5 @@ ob_start(); // Start output buffering
 
     echo "teste";
 
-ob_end_clean(); // Flush buffered output before destroying the session
+ob_end_clean(); 
 ?>

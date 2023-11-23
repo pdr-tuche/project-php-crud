@@ -14,7 +14,7 @@ body::-webkit-scrollbar {
      /* creates padding around scroll thumb */
   }
 
-/********** Template CSS **********/
+
 :root {
     --primary: #5B8C51;
     --secondary: #EDDD5E;

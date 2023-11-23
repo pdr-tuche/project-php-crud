@@ -20,3 +20,4 @@ if ($linhas == 0) {
     header("Location: index.php");
 }
 ?>
+<!-- php -->

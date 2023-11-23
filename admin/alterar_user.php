@@ -38,3 +38,4 @@ while($dados=mysqli_fetch_array($busca)){
 <?php 
 }
 ?>
+<!-- php -->

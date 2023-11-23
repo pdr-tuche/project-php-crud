@@ -20,3 +20,4 @@ if(!$altera){
 <a href='?pg=listar'>Voltar</a>";
 }
 ?>
+<!-- php -->

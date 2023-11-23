@@ -33,7 +33,7 @@ $user_id = $dados['id'];
 	
 </head>
 <body>
-<!-- Acessibilidade -->
+<!-- Acessibiliti -->
 
 <div vw class="enabled">
   <div vw-access-button class="active"></div>

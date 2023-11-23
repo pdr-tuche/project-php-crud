@@ -27,3 +27,4 @@ if ($result=mysqli_query($conexao, $query)) {
     header("Location: login.php?msg=ERRO");
 }
 ?>
+<!-- php -->

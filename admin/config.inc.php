@@ -6,3 +6,4 @@
     $db = mysqli_select_db($conexao, "blog");
         
 ?>
+<!-- php -->
