@@ -9,7 +9,7 @@ $busca = "Select * from login_user WHERE usuario = '$usuario'";
 $todos = mysqli_query($conexao, $busca);
 
 while ($dados=mysqli_fetch_array($todos)) {
-echo $user_id = $dados['id'];
+$user_id = $dados['id'];
 }
 ?>
 <!DOCTYPE html>

@@ -16,10 +16,10 @@ require_once "valida_coo.inc.php";
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Taylor Swift Tour</title>
+    <title>Taylor Swift Tour Admin</title>
 
     <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="../assets/css/r">
+    <link rel="icon" href="../assets/img/logo-taylor-swift.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -64,6 +64,8 @@ require_once "valida_coo.inc.php";
 
 </head>
 
+
+
 <body>
     <!-- Carousel Start -->
     <div class="container-fluid px-0 mb-5">
@@ -105,21 +107,19 @@ require_once "valida_coo.inc.php";
         </div>
     </div>
 
-    <!-- Acessibilidade -->
+<!-- Acessibilidade -->
 
-    <div vw class="enabled">
-        <div vw-access-button class="active"></div>
-        <div vw-plugin-wrapper>
-            <div class="vw-plugin-top-wrapper"></div>
-        </div>
-    </div>
-    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-    <script>
-        new window.VLibras.Widget();
-    </script>
-    <!-- Fim da Acessibilidade -->
-
-
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget();
+</script>
+<!-- Fim da Acessibilidade -->
 
 
 
@@ -138,7 +138,7 @@ require_once "valida_coo.inc.php";
 
         while ($dados=mysqli_fetch_array($todos)) { ?>
             <img src="<?= $dados['perfil']; ?>" alt="Profile Image">
-            <h1 style="color: white;"><?= $dados['usuario']; ?></h1>
+            <h1 style="color: white; font-size:22px; margin-top: 1rem;"><?= $dados['usuario']; ?></h1>
         <?php } ?>
     </div>
 </div>
@@ -159,26 +159,50 @@ require_once "valida_coo.inc.php";
                                 <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z" />
                             </svg>Home</a>
                     </li>
-                    <li class="active"><a href="?pg=listar"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" viewBox="0 0 384 512">
+                    <li class="active">
+                        <a href="?pg=listar">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" viewBox="0 0 384 512">
                                 <path d="M192 0c-41.8 0-77.4 26.7-90.5 64H64C28.7 64 0 92.7 0 128V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V128c0-35.3-28.7-64-64-64H282.5C269.4 26.7 233.8 0 192 0zm0 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM305 273L177 401c-9.4 9.4-24.6 9.4-33.9 0L79 337c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L271 239c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z" />
-                            </svg>Listar Produtos</a></li>
-                    <li class="active"><a href="?pg=inserir"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" viewBox="0 0 576 512">
+                            </svg>Listar Produtos
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="?pg=inserir">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" viewBox="0 0 576 512">
                                 <path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96zM252 160c0 11 9 20 20 20h44v44c0 11 9 20 20 20s20-9 20-20V180h44c11 0 20-9 20-20s-9-20-20-20H356V96c0-11-9-20-20-20s-20 9-20 20v44H272c-11 0-20 9-20 20z" />
-                            </svg>Inserir Novo Produto</a></li>
-                    <li class="active"><a href="?pg=inserir"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" viewBox="0 0 576 512">
+                            </svg>Inserir Novo Produto
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="?pg=visualizar_pagamentos">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" viewBox="0 0 576 512">
                                 <path d="M512 80c8.8 0 16 7.2 16 16v32H48V96c0-8.8 7.2-16 16-16H512zm16 144V416c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V224H528zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm56 304c-13.3 0-24 10.7-24 24s10.7 24 24 24h48c13.3 0 24-10.7 24-24s-10.7-24-24-24H120zm128 0c-13.3 0-24 10.7-24 24s10.7 24 24 24H360c13.3 0 24-10.7 24-24s-10.7-24-24-24H248z" />
-                            </svg>Pagamentos</a></li>
-                    <li class="active"><a href="?pg=visualizar-faleconosco"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" viewBox="0 0 512 512">
+                            </svg>Pagamentos
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="?pg=visualizar-faleconosco">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" viewBox="0 0 512 512">
                                 <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-                            </svg>Visualizar FAQ</a></li>
-                    <li class="active"><a href="?pg=list_user"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-person-square" viewBox="0 0 16 16">
+                            </svg>Visualizar FAQ
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="?pg=list_user">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-person-square" viewBox="0 0 16 16">
                                 <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
                                 <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12z" />
-                            </svg>Visualizar Usuários</a></li>
-                    <li class="active" id="exit"><a href="./logout.php"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" id="exit1" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+                            </svg>Visualizar Usuários
+                        </a>
+                    </li>
+                    <li class="active" id="exit">
+                        <a href="./logout.php">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" id="exit1" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z" />
                                 <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
-                            </svg>Sair</a></li>
+                            </svg>Sair
+                        </a>
+                    </li>
                 </ol>
             </div>
             <div class="admin" id="admin">

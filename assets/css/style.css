@@ -103,7 +103,7 @@ body::-webkit-scrollbar {
     position: relative;
             
             bottom:250px;
-            left: 50px;
+            left: -11px;
             z-index: 4;
 }
 

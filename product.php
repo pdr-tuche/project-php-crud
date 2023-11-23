@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="utf-8">
@@ -9,7 +9,6 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -77,8 +76,8 @@ while ($item = mysqli_fetch_array($query)) {
                         <div class="position-relative">
                             <img class="img-fluid" src="<?php echo $item['img']; ?> " alt="">
                             <div class="product-overlay">
-                                <a class="btn btn-square btn-secondary rounded-circle m-1" href=pg={$dadosCarrinho><i class="bi bi-link"></i></a>
-                                <a class="btn btn-square btn-secondary rounded-circle m-1" href="?pg=pagamentos&id=<?= $item['id']; ?>"><i class="bi bi-cart"></i></a>
+                                <a class="btn btn-square btn-secondary rounded-circle m-1" href="$dadosCarrinho"><i class="bi bi-link"></i></a>
+                                <a class="btn btn-square btn-secondary rounded-circle m-1" href="?pg=pagamentos&id=<?= $item['id']; ?>&quantidade=1"><i class="bi bi-cart"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4" >

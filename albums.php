@@ -154,7 +154,7 @@
     <!-- Gallery End -->
 <!-- ALBUMS-->
 
- <div class="photo-albums"> 
+ <div class="photo-albums" > 
      <img  src="./assets/img/ALBUMS.png" alt="albums-taylor-swift">
  </div>
 

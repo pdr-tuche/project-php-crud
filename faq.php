@@ -36,10 +36,9 @@
         padding: 2rem;
         align-items: center;
         display: flex;
-        background-color: beige;
         flex-direction: column;
         justify-content: center;
-        width: 1200px;
+        width: 100%;
     }
 
     .formulario{
